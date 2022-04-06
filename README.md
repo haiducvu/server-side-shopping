@@ -5,3 +5,4 @@
 # Sharing data aCross request
 # Template Engines
 # Implement Pug
+# Outputting Dynamic Content
