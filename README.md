@@ -6,3 +6,6 @@
 # Template Engines
 # Implement Pug
 # Outputting Dynamic Content
+# Convert HTML file to pug
+# Adding a layout
+# Working handlebars
