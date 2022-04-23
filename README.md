@@ -9,3 +9,4 @@
 # Convert HTML file to pug
 # Adding a layout
 # Working handlebars
+# Apply model MVC
