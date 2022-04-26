@@ -13,3 +13,6 @@
 # Creating the shop structure
 # Working on navigation
 # Register routes
+# Sorting Product Data
+# Display Product Data
+# Editing & Deleting Products
