@@ -10,3 +10,6 @@
 # Adding a layout
 # Working handlebars
 # Apply model MVC
+# Creating the shop structure
+# Working on navigation
+# Register routes
