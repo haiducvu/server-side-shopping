@@ -18,3 +18,4 @@
 # Editing & Deleting Products
 # Adding another Item
 # Dynamic routes & Advanced models
+# Rendering product detail view
