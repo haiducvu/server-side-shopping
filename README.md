@@ -17,3 +17,4 @@
 # Display Product Data
 # Editing & Deleting Products
 # Adding another Item
+# Dynamic routes & Advanced models

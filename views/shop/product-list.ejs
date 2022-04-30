@@ -22,6 +22,7 @@
                             <p class="product__ description"><%= product.description %></p>
                         </div>
                         <div class="card__actions">
+                            <a href="/products/<%= product.id %>" class="btn">Details</a>
                             <form action="/add-to-cart/id" method="POST">
                                 <button class="btn">Add to Cart</button>
                             </form>
