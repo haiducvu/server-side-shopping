@@ -19,3 +19,7 @@
 # Adding another Item
 # Dynamic routes & Advanced models
 # Rendering product detail view
+# Using query params
+# Pre-populating the edit product page with data
+# Linking to the Edit Page
+# Editing the product data
