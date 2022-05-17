@@ -23,3 +23,4 @@
 # Pre-populating the edit product page with data
 # Linking to the Edit Page
 # Editing the product data
+# Adding the Product -Delete Func
