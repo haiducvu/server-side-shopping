@@ -25,3 +25,5 @@
 # Editing the product data
 # Adding the Product -Delete Func
 # Display Cart Items on the Cart Page
+# Delete Cart Items
+# Fixing a Delete Product bug
