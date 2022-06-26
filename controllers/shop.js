@@ -2,13 +2,14 @@ const Product = require("../models/product");
 const Cart = require("../models/cart");
 
 exports.getProducts = (req, res, next) => {
-  Product.fetchAll((products) => {
+  Product.fetchAll().then(([rows, fieldData]) => {
     res.render("shop/product-list", {
-      prods: products,
+      prods: rows,
       pageTitle: "All Products",
       path: "/products",
     });
-  });
+    })
+    .catch((err) => console.log(err));
 };
 
 exports.getProduct = (req, res, next) => {
@@ -43,7 +44,10 @@ exports.getCart = (req, res, next) => {
           (prod) => prod.id === product.id
         );
         if (cartProductData) {
-          cartProducts.push({ productData: product, qty: cartProductData.qty });
+          cartProducts.push({
+            productData: product,
+            qty: cartProductData.qty
+          });
         }
       }
       res.render("shop/cart", {
